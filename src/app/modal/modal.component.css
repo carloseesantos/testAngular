@@ -1,0 +1,23 @@
+.modal.show{
+    display: block;
+}
+
+#modal_button {
+    background-image: linear-gradient(to right, #F44336, #E91E63, #9C27B0) !important;
+    border: none;
+    cursor: pointer;
+    border-radius: 18px;
+    font-size: 1.2rem;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    transition: .5s;
+    padding: 10px !important;
+}
+#modal_button:hover {
+background-position: right;
+}
+
+.modal-content {
+    color: #212121;
+}
