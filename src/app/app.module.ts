@@ -9,6 +9,10 @@ import { ContentComponent } from './content/content.component';
 import { FooterComponent } from './footer/footer.component';
 import { ModalComponent } from './modal/modal.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ItensComponent } from './itens/itens.component';
+import { ItemDetalheComponent } from './itens/item-detalhe.component';
+import { ItemNovoComponent } from './itens/item-novo.component';
+import { ItemEditarComponent } from './itens/item-editar.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     HeaderComponent,
     ContentComponent,
     FooterComponent,
-    ModalComponent
+    ModalComponent,
+    ItensComponent,
+    ItemDetalheComponent,
+    ItemNovoComponent,
+    ItemEditarComponent
   ],
   imports: [
     BrowserModule,
