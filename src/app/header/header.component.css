@@ -4,7 +4,6 @@
     background: #dcbc81;
     color: #fff;
     box-shadow: 0 2px 5px -2px grey;
-    width: 100vw;
     }
     .menu-header li  {
     display: block;
@@ -32,36 +31,3 @@
     font-size: 18px;
     }
     }
-
-
-.container {
-width: 100vw !important;
-}
-
-
-.menu-header--style-text{
-    display: block;
-    width: 100%;
-    height: 50px;
-    border-radius: 25px;
-    outline: none;
-    border: none;
-    background-image: linear-gradient(to right, #FFEB3B, #FFC107, #FF5722);    background-size: 200%;
-    font-size: 1.2rem;
-    color: #fff;
-    font-family: 'Poppins', sans-serif;
-    text-transform: uppercase;
-    margin: 1rem 0;
-    cursor: pointer;
-    transition: .5s;
-    padding: 10px !important;
-}
-
-li.menu-header--style-text:hover {
-    background-position: right;
-}
-
-
-input#inlineFormInputName:hover{
-    
-}
