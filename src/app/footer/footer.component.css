@@ -3,19 +3,44 @@
     height: 50vh;
     background: #000;
     color: rgba(255, 255, 255, 0.6) !important;
-    padding: 90px;
-    }
-    .topicos h6 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.topicos h6 {
     color: #fff;
-    }
-    .topicos li {
+}
+
+.topicos li {
     list-style: none;
     line-height: 3;
-    }
-    .rodape {
+}
+
+.rodape {
     background: #ddd;
-    height: 5vh;
-    }
-    .rodape p {
+    width: 100%;
+    text-align: left;
+    padding: 4px 50px 3px 50px;
+}
+
+.rodape p {
     padding-top: 6px;
+}
+
+.col-3 {
+    margin: 0 auto;
+}
+
+@media (max-width: 700px) {
+    .rodape {
+        padding: 50px 50px 60px 50px !important;
     }
+    .topicos {
+        flex-wrap: inherity;
+        font-size: smaller;
+        line-height: 1;
+    }
+}
